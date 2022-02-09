@@ -1,0 +1,19 @@
+{
+  "name": "my-gridsome-site",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/source-strapi": "^0.2.0",
+    "axios": "^0.25.0",
+    "gridsome": "^0.7.0",
+    "markdown-it": "^12.3.2"
+  },
+  "devDependencies": {
+    "@gridsome/transformer-remark": "^0.6.4"
+  }
+}
